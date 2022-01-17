@@ -1,28 +1,31 @@
-.html{
-    min-width: 800px;
-    max-width: 800px;
+.body{
     overflow: scroll;
+    min-width: 900px;
 }
-.sakums_ieteikumi{
-    display: flex;
-}
+
 .sakums{
     text-align: center;
 }
-.Ieteikumi{
+.Ieteikumi, .poga{
     
     margin-left: 20%;
     border-width: 50px;
+    position:absolute;
+    float: left;
+    display: inline;
+    
+}
+.Ieteikumi{
+    border-width: 50px;
     border-style: solid;
-    border-color: lightgrey;
-    position:fixed;
     background-color:lightgrey;
-    display: flex;
+    border-color: lightgray;
 }
 .poga{
-    display: inline;
-    position: fixed;
+    position: absolute;
+    margin-left: 250px;
 }
+
 .bilde{
     height: 50%;
     width: 50%;
