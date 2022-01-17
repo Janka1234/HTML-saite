@@ -1,6 +1,8 @@
-.body{
-    overflow: scroll;
-    min-width: 900px;
+body{
+    overflow: auto;
+    min-width: 1000px;
+    background-color: darkgrey;
+    position: absolute;
 }
 
 .sakums{
@@ -20,6 +22,7 @@
     border-style: solid;
     background-color:lightgrey;
     border-color: lightgray;
+    position:absolute;
 }
 .poga{
     position: absolute;
@@ -31,4 +34,9 @@
     width: 50%;
     margin-top: 200px;
     margin-left: 5%;
+}
+
+.Laba_puse, .Kreisa_puse{
+    float:left;
+    display: inline;
 }
