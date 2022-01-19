@@ -1,32 +1,37 @@
 body{
     overflow: auto;
-    min-width: 1000px;
+    min-width: 1400px;
     background-color: darkgrey;
     position: absolute;
+
+}
+.Kopeja_kaste{
+    display: flex;
 }
 
 .sakums{
+    display: block;
     text-align: center;
+    
 }
 .Ieteikumi, .poga{
-    
-    margin-left: 20%;
-    border-width: 50px;
-    position:absolute;
+    margin-left: 15%;
+    padding-left: 10%;
+    border-width: 25px;
     float: left;
     display: inline;
     
 }
 .Ieteikumi{
-    border-width: 50px;
+    border-width: 40px;
     border-style: solid;
     background-color:lightgrey;
     border-color: lightgray;
-    position:absolute;
 }
 .poga{
-    position: absolute;
-    margin-left: 250px;
+    position: relative;
+    margin-left: 50px;
+    margin-top: -35px;
 }
 
 .bilde{
@@ -40,3 +45,13 @@ body{
     float:left;
     display: inline;
 }
+.Laba_puse{
+    position: relative;
+    margin-left: 15%;
+    border-width: 40px;
+    border-bottom-width: 320px;
+    border-color: lightgray;
+    background-color: lightgray;
+    border-style: solid;
+}
+
