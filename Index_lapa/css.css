@@ -1,0 +1,42 @@
+body{
+    overflow: auto;
+    min-width: 1000px;
+    background-color: darkgrey;
+    position: absolute;
+}
+
+.sakums{
+    text-align: center;
+}
+.Ieteikumi, .poga{
+    
+    margin-left: 20%;
+    border-width: 50px;
+    position:absolute;
+    float: left;
+    display: inline;
+    
+}
+.Ieteikumi{
+    border-width: 50px;
+    border-style: solid;
+    background-color:lightgrey;
+    border-color: lightgray;
+    position:absolute;
+}
+.poga{
+    position: absolute;
+    margin-left: 250px;
+}
+
+.bilde{
+    height: 50%;
+    width: 50%;
+    margin-top: 200px;
+    margin-left: 5%;
+}
+
+.Laba_puse, .Kreisa_puse{
+    float:left;
+    display: inline;
+}
