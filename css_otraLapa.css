@@ -1,0 +1,55 @@
+body{
+    background-color:rgb(85, 85, 85);
+    max-width: 100%;
+}
+.Ieteikumi{
+    display: block;
+    text-align: center;
+}
+.kolona{
+  background-color: lightgray;
+}
+.kolona {
+    padding: 5px;
+    margin-left: 30%;
+    margin-right: 35%;
+    border-style: solid;
+
+  }
+.rinda {
+    display: flex;
+}
+.poga{
+  width: 100%;
+}
+img{
+  width: 100px;
+  height: 100px;
+}
+button + button{
+  margin-left: 5%;
+  margin-top: 5%; 
+}
+
+.Otra_kaste{
+  border-style: solid;
+  margin-left: 30%;
+  margin-right: 35%;
+  margin-top: 15px;
+  background-color: lightgray;
+}
+.input_left, .input,.check_left,.check,.select_left,.select{ 
+  display: block;
+  margin-top: 5px;
+}
+.Input_kaste, .check_kaste,.select_kaste{
+  display: flex;
+  }
+  .poga1{
+    display: inline;
+  }
+  .atpakal{
+    margin-top: 15px;
+    margin-left: 30%;
+    background-color: darkgray;
+  }
