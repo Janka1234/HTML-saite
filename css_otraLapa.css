@@ -1,26 +1,24 @@
 body{
-    background-color:rgb(85, 85, 85);
+  background: linear-gradient(to right, rgb(85, 85, 85) 0%, rgb(85, 85, 85) 15%, darkgray 15%, darkgray 85%, rgb(85, 85, 85) 85%, rgb(85, 85, 85) 100%);
     max-width: 100%;
+    min-width: 800px;
+}
+.kopeja_kaste{
+  background-color: darkgray;
 }
 .Ieteikumi{
     display: block;
     text-align: center;
-}
-.kolona{
-  background-color: lightgray;
 }
 .kolona {
     padding: 5px;
     margin-left: 30%;
     margin-right: 35%;
     border-style: solid;
-
+    background-color: lightgray;
   }
 .rinda {
     display: flex;
-}
-.poga{
-  width: 100%;
 }
 img{
   width: 100px;
@@ -39,7 +37,7 @@ button + button{
   background-color: lightgray;
 }
 .input_left, .input,.check_left,.check,.select_left,.select{ 
-  display: block;
+  display: inline;
   margin-top: 5px;
 }
 .Input_kaste, .check_kaste,.select_kaste{
